@@ -41,13 +41,16 @@ body {
   display: flex;
 }
 
-.menu a {
+.menu a,p{
   color: #3f50b5;
-  text-decoration: none;
+  
   margin-right: 15px;
   
 }
-
+.menu p{
+  color: black;
+  font-weight: 700;
+}
 .menu a:hover {
   text-decoration: underline;
 }
@@ -85,7 +88,7 @@ body {
   height: 50px;
   width: 100%;
   border: 1px solid #d0d0d0;
-  border-radius: 100px;
+  border-radius: 20px;
   padding: 0 50px;
   outline: 0;
   box-shadow: 0 0 0 0 rgba(136, 136, 136, 0);
@@ -128,7 +131,7 @@ body {
 
 .search-buttons {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .search-buttons a {
@@ -137,7 +140,7 @@ body {
   background-color: #ececec;
   color: black;
   padding: 10px 15px;
-  border-radius: 3px;
+  border-radius: 1px;
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
