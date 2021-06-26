@@ -50,6 +50,7 @@ body {
 .menu p{
   color: black ;
   font-weight: 700 !important;
+  margin-right: 15px;
 }
 .menu a:hover {
   text-decoration: underline;
